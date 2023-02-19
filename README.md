@@ -1,5 +1,6 @@
 # count-triangles-in-networks
 
-We are using three baseline algorithms (**Brute-Force**, **Node-Iterator**, **Compact-Forward**) to __count the triangles__ in three different-sized networks, retrieved from __SNAP__.
-Afterwards, we are usign **DOULION** algorithm to sparsify the graphs and achieve speedups, while calculating accuracies and relative errors.
-Finally we apply **Triest** algorithm for streaming.
+This project implements several __exact__ and __approximate__ __triangle counting algorithms__ using __Python__ and explores their __scalability properties__ on different real-world data sets.  
+The implemented exact algorithms include the **Brute-Force** algorithm, the **Node-Iterator** algorithm, and the **Compact-Forward** algorithm, while the **DOULION** algorithm is used for approximate triangle counting. Additionally, the streaming algorithm **TRIEST** is explored for triangle counting in dynamic graphs.  
+Our experiments evaluate the performance of each algorithm on different data sets and compare their efficiency in terms of __time and space complexity__.  
+The results of our study provide a comprehensive evaluation of each algorithm and its scalability properties, which will be valuable for researchers and practitioners who work with large graphs and are interested in efficient triangle counting algorithms.
